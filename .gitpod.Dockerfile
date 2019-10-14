@@ -13,4 +13,5 @@ USER root
 
 # I added
 RUN npm install -g expo-cli
+RUN npm install -g dotenv
 
