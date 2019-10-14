@@ -9,6 +9,6 @@ ports:
 tasks:
 - init: echo "init"
   - command: >
-        expo init partyTogether && cd partyTogether && npm start
+        expo mkdir deneme && cd deneme
   
   
