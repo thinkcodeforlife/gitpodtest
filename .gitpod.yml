@@ -7,7 +7,6 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
-- init: expo init partyTogether
-  command: cd partyTogether
-  command: npm install --save firebase
+- init: echo "init"
+  command: echo "start"
   
