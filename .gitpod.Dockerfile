@@ -13,5 +13,7 @@ USER root
 
 # I added
 RUN npm install -g expo-cli
-RUN npm install -g firebase-tools
+RUN expo init partyTogether
+RUN cd partyTogether
+RUN npm install --save firebase
 RUN npm install -g dotenv
