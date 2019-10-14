@@ -48,8 +48,8 @@ RUN curl -fsSL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install
     && bash -c ". .nvm/nvm.sh \
         && npm config set python /usr/bin/python --global \
         && npm config set python /usr/bin/python \
-        && npm install -g typescript
-        && npm install -g expo-cli
+        && npm install -g typescript \
+        && npm install -g expo-cli \
         && npm install -g dotenv"
 
 ### Python ###
