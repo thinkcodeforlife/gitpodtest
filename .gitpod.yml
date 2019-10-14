@@ -10,4 +10,4 @@ tasks:
 - init: expo init partyTogether
   command: cd partyTogether
   command: npm install --save firebase
-  command: npm install -g dotenv
+  
